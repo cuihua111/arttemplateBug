@@ -1,0 +1,88 @@
+{
+        "code": 1,
+        "msg": "success",
+        "data": [{
+                "phone": "18973084192",
+                "businessId": 28,
+                "mobile": "",
+                "province": "广东省",
+                "city": "深圳市",
+                "county": "南山区",
+                "detail": "----南山区",
+                "name": "酒店",
+                "licenseNumber": "64940486464484",
+                "scope": "集体户口",
+                "attach": {
+                    "headPhotoUrl": "http://jin-fu-tong.oss-cn-qingdao.aliyuncs.com/PictureUnlock_05fef4e15d3bcf9bb74cc432fdc30fcc.pictureunlock.jpg",
+                    "paperPhotoUrl": "http://jin-fu-tong.oss-cn-qingdao.aliyuncs.com/PictureUnlock_d48d5e2b02062a24734042f7dd3838d1.pictureunlock.jpg",
+                    "identityFaceUrl": "http://jin-fu-tong.oss-cn-qingdao.aliyuncs.com/PictureUnlock_f6f439ba21be0c15ea37f3f31d5260e5.pictureunlock.jpg",
+                    "identityOppositeUrl": "http://jin-fu-tong.oss-cn-qingdao.aliyuncs.com/PictureUnlock_3051da1be576f997d95e25c6a15e47d4.pictureunlock.jpg",
+                    "halfLengthPhoto": "http://jin-fu-tong.oss-cn-qingdao.aliyuncs.com/PictureUnlock_b323d467b1acc85c19e57895943ea529.pictureunlock.jpg"
+                },
+                "commonInformaion": null
+            },
+            {
+                "phone": "13026688520",
+                "businessId": 52,
+                "mobile": "514654",
+                "province": "广东省",
+                "city": "深圳市",
+                "county": "南山区",
+                "detail": "粤海街圳13号",
+                "name": "旅游",
+                "licenseNumber": "46489167679",
+                "scope": "各种PS照",
+                "attach": {
+                    "headPhotoUrl": "http://jin-fu-tong.oss-cn-qingdao.aliyuncs.com/1499767997194.png",
+                    "paperPhotoUrl": "http://file4.qiyesq.com/201702/11/15912cec271848ee8e436ced3e97e2591486816518970.png",
+                    "identityFaceUrl": "http://jin-fu-tong.oss-cn-qingdao.aliyuncs.com/1499767411131.png",
+                    "identityOppositeUrl": "http://jin-fu-tong.oss-cn-qingdao.aliyuncs.com/1499767401918.png",
+                    "halfLengthPhoto": "http://jin-fu-tong.oss-cn-qingdao.aliyuncs.com/1499767907720.png"
+                },
+                "commonInformaion": null
+            },
+            {
+                "phone": "13026688520",
+                "businessId": 53,
+                "mobile": "0755-986475",
+                "province": "广东省",
+                "city": "深圳市",
+                "county": "南山区",
+                "detail": "粤海街道路5号",
+                "name": "酒店",
+                "licenseNumber": "6464646946464",
+                "scope": "啥都有",
+                "attach": {
+                    "headPhotoUrl": "http://jin-fu-tong.oss-cn-qingdao.aliyuncs.com/1499767756842.png",
+                    "paperPhotoUrl": "http://jin-fu-tong.oss-cn-qingdao.aliyuncs.com/1499767591289.png",
+                    "identityFaceUrl": "http://jin-fu-tong.oss-cn-qingdao.aliyuncs.com/1499767626994.png",
+                    "identityOppositeUrl": "http://jin-fu-tong.oss-cn-qingdao.aliyuncs.com/1499767915278.png",
+                    "halfLengthPhoto": "http://jin-fu-tong.oss-cn-qingdao.aliyuncs.com/1499768346574.png"
+                },
+                "commonInformaion": null
+            },
+            {
+                "phone": "18673582672",
+                "businessId": 55,
+                "mobile": "",
+                "province": "广东省",
+                "city": "深圳市",
+                "county": "南山区",
+                "detail": "国通区",
+                "name": "酒店",
+                "licenseNumber": "100015440011",
+                "scope": "你咯look女女",
+                "attach": {
+                    "headPhotoUrl": "http://jin-fu-tong.oss-cn-qingdao.aliyuncs.com/1499745060861.jpg",
+                    "paperPhotoUrl": "http://jin-fu-tong.oss-cn-qingdao.aliyuncs.com/1499768690181295.jpg",
+                    "identityFaceUrl": "http://jin-fu-tong.oss-cn-qingdao.aliyuncs.com/1499768667907429.jpg",
+                    "identityOppositeUrl": "http://jin-fu-tong.oss-cn-qingdao.aliyuncs.com/1499768685136497.jpg",
+                    "halfLengthPhoto": "http://jin-fu-tong.oss-cn-qingdao.aliyuncs.com/1499768694481789.jpg"
+                },
+                "commonInformaion": null
+            }
+        ],
+        "page": 1,
+        "pageNum": 1,
+        "total": 4
+    }

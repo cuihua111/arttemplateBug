@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <script src="https://cdn.bootcss.com/jquery/1.9.0/jquery.min.js"></script>
+    <script src="./template-web.js"></script>
+    <script src="./index.js"></script>
+    <title>商户开通审核</title>
+</head>
+
+<body>
+    <div class="tableBox">
+        <table border="1" cellpadding="10" cellspacing="0" id="idData">
+            <thead>
+                <tr>
+                    <th>序号</th>
+                    <th>会员账号</th>
+                    <th>商户名称</th>
+                    <th>联系电话</th>
+                    <th>详细地址</th>
+                    <th>所属地区</th>
+                    <th>商户类型</th>
+                    <th>经营范围</th>
+                    <th>营业执照</th>
+                    <th>认证资料</th>
+                    <th>对公资料</th>
+                    <th>状态</th>
+                    <th style="width:150px">操作</th>
+                </tr>
+            </thead>
+            <tbody id="adminTbody">
+                <!--<tr data-id=28>
+                        <td>1</td>
+                        <td></td>
+                        <td>sadasdasdadad</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><a href="javascript:;" onclick="showbox()">附件(6)</a></td>
+                        <td><a href="javascript:;" onclick="showDuiGong()">有</a></td>
+                        <td class="lastTd"><span class="allow">通过</span><span class="noAllow">不通过</span></td>
+                    </tr>-->
+            </tbody>
+        </table>
+    </div>
+    <div class="renzheng">
+        <!--<h3>认证资料</h3>
+        <div class="smallbox">
+            <p>单位名称&nbsp;&nbsp;&nbsp;&nbsp; 山西好随便有限公司</p>
+            <ul>
+                <li>门脸照片&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="../images/u10753.png" alt=""></li>
+                <li>营业执照&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="../images/u10753.png" alt=""></li>
+                <li>身份证正面&nbsp;&nbsp; <img src="../images/u10753.png" alt=""></li>
+                <li>身份证反面&nbsp;&nbsp; <img src="../images/u10753.png" alt=""></li>
+                <li><span>手持身份证半身照</span> <img src="../images/u10753.png" alt=""></li>
+            </ul>
+            <button type="button" onclick="_hide('.renzheng')">关闭</button>
+        </div>
+        <div class="_imgBox">
+            <span></span>
+        </div>-->
+    </div>
+    <!--商户审核列表-->
+    <script type="text/html" id="businessList">
+        {{each data}}
+        <tr data-id={{$value.businessId}}>
+            <td>{{$index+1}}</td>
+            <td>{{$value.phone}}</td>
+            <td class="name">{{$value.name}}</td>
+            <td>{{$value.phone}}</td>
+            <td>{{$value.province+$value.city+$value.county+$value.detail}}</td>
+            <td>{{$value.province}}</td>
+            <td></td>
+            <td></td>
+            <td>{{$value.licenseNumber}}</td>
+            <td><a href="javascript:;" data-id={{$value.businessId}} onclick="showbox()" class="fujian">附件</a></td>
+            <td><a href="javascript:;" onclick="showDuiGong()">{{$value.commonInformaion}}</a></td>
+            <td class="status"></td>
+            <td class="lastTd"><span class="allow">通过</span><span class="noAllow">不通过</span></td>
+        </tr>
+        {{/each}}
+    </script>
+</body>
+
+</html>
